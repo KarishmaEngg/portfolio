@@ -6,8 +6,8 @@ export default function Portfolio() {
   const [filter, setFilter] = useState('All');
 
   // Yahan 'img' mein wahi naam likhein jo aapne public/projects/ folder mein save kiya hai
- const projects = [
-    {  
+const projects = [
+    {   
       title: "FoodiiZone", 
       category: "Web development", 
       img: "/projects/foodiezone.jpg", 
@@ -20,6 +20,18 @@ export default function Portfolio() {
       link: "https://lms-da6a.vercel.app/"
     },
     { 
+      title: "MedixFlow: Healthcare E-commerce Platform", 
+      category: "Web development", 
+      img: "/projects/alhawat.png", // Yahan apni image ka sahi path likhein
+      link: "https://alhawat-medical-store-9h32.vercel.app/" 
+    },
+    { 
+      title: "LuxeSpace: Luxury Interior Showcase", 
+      category: "Web design", 
+      img: "/projects/psdecor.jpg", // Yahan apni image ka sahi path likhein
+      link: "https://ps-decor-clone-nizu.vercel.app/"
+    },
+    { 
       title: "Salary Prediction", 
       category: "Applications", 
       img: "/projects/salary.jpg", 
@@ -30,7 +42,7 @@ export default function Portfolio() {
       category: "Web design", 
       img: "/projects/todo.jpg", 
       link: "https://flask-todo-app-8qpz.onrender.com/"
-    },
+    }
   ];
 
   const categories = ['All', 'Web design', 'Applications', 'Web development'];

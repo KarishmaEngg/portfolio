@@ -1,4 +1,4 @@
-import { FaCode, FaMobileAlt, FaCamera, FaLayerGroup } from 'react-icons/fa';
+import { FaCode, FaMobileAlt, FaCamera, FaLayerGroup, FaDatabase } from 'react-icons/fa';
 
 export default function About() {
   return (
@@ -9,8 +9,7 @@ export default function About() {
       </h2>
 
       <div className="text-[#d6d6d6] text-[15px] leading-relaxed space-y-4 mt-8">
-        <p>“I am a Creative Web Developer from Moradabad, Uttar Pradesh, India. I specialize in transforming complex ideas into simple, elegant, and user-friendly web experiences.
-           My goal is to build websites that are functional, visually appealing, and easy to use while adding a unique personal touch to every project.”</p>
+        <p>"I am a Full-Stack Developer based in Moradabad, India. I specialize in building scalable, responsive web applications using the MERN stack and Next.js. My approach blends clean, functional code with aesthetic UI/UX design to deliver high-quality digital experiences. Passionate about solving complex problems and continuously learning new technologies."</p>
       </div>
 
       <h3 className="text-[24px] font-bold mt-10 mb-6">What I&apos;m Doing</h3>
@@ -33,9 +32,9 @@ export default function About() {
           desc="Professional development of applications for iOS and Android." 
         />
         <ServiceCard 
-          icon={<FaCamera />} 
-          title="Photography" 
-          desc="I make high-quality photos of any category at a professional level." 
+          icon={<FaDatabase />} 
+          title= "Database Management"
+          desc="Expertise in designing robust schemas using MongoDB and PostgreSQL for efficient data handling."
         />
       </div>
     </section>
