@@ -5,7 +5,6 @@ import { FaEye } from 'react-icons/fa';
 export default function Portfolio() {
   const [filter, setFilter] = useState('All');
 
-  // Yahan 'img' mein wahi naam likhein jo aapne public/projects/ folder mein save kiya hai
 const projects = [
     {   
       title: "FoodiiZone", 
@@ -42,6 +41,12 @@ const projects = [
       category: "Web design", 
       img: "/projects/todo.jpg", 
       link: "https://flask-todo-app-8qpz.onrender.com/"
+    },
+    { 
+      title: "TskFlow-Pro", 
+      category: "Web development", 
+      img: "https://i.pinimg.com/1200x/52/00/fa/5200fae2984ae68163a63d8566f1f785.jpg", 
+      link: "https://task-flow-frontend-phi.vercel.app/"
     }
   ];
 
