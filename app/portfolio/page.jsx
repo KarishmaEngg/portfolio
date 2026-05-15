@@ -21,13 +21,13 @@ const projects = [
     { 
       title: "MedixFlow: Healthcare E-commerce Platform", 
       category: "Web development", 
-      img: "/projects/alhawat.png", // Yahan apni image ka sahi path likhein
+      img: "/projects/alhawat.png", 
       link: "https://alhawat-medical-store-9h32.vercel.app/" 
     },
     { 
       title: "LuxeSpace: Luxury Interior Showcase", 
       category: "Web design", 
-      img: "/projects/psdecor.jpg", // Yahan apni image ka sahi path likhein
+      img: "/projects/psdecor.jpg",
       link: "https://ps-decor-clone-nizu.vercel.app/"
     },
     { 
@@ -47,6 +47,12 @@ const projects = [
       category: "Web development", 
       img: "https://i.pinimg.com/1200x/52/00/fa/5200fae2984ae68163a63d8566f1f785.jpg", 
       link: "https://task-flow-frontend-phi.vercel.app/"
+    },
+    { 
+      title: "TileVista", 
+      category: "Web design", 
+      img: "https://i.pinimg.com/736x/42/3b/45/423b45b6800020d660ef01da67dbde44.jpg", 
+      link: "https://muraliz-tiles.vercel.app/"
     }
   ];
 
