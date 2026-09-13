@@ -56,13 +56,13 @@ const projects = [
     },
     {
       title:"BitNexa",
-      category:"Web design",
+      category:"Web development",
       img:"https://www.reuters.com/resizer/v2/OHRVOCXQWVNYDFN2BDMRNO6B3Y.jpg?auth=d966b5290f69e1623f6b1ca95c1daf490d9b3e25e11383dff6b13a999e98b0b8&height=2400&width=1920&quality=80&smart=true",
       link:"https://bitnexa.onrender.com/"
     },
     {
       title:"Cryptonix",
-      category:"Web design",
+      category:"Web development",
       img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAxZoKwFgJUVUi023FeYOdyX8Dqbjb6FVzkgpyvxR24PzzhqJLIshVM4yN&s=10",
       link:"https://cryptonix-n6el.onrender.com/"
     }
